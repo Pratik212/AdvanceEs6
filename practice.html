@@ -1,0 +1,78 @@
+var message=`Hello World`;
+
+console.log(message);
+console.log(typeof message);
+console.log(message.length);
+
+message=`\`Hello\`World`;
+
+console.log(message);
+console.log(typeof message);
+console.log(message.length);
+
+message=`Multiline 
+   String` ;
+
+
+console.log(message);
+console.log(message.length);
+
+var html=`
+  <div>
+    <h1>Hello</h1>
+  </div>`.trim();
+console.log(html);
+
+var name="pratik";
+    message=`Hello,${name}`;
+
+console.log(message);
+
+var count=10,
+    price=0.25,
+    message=`${count} items cost $${(count*price).toFixed(2)}`;
+
+console.log(message);
+
+var name="pratik",
+    message=`Hello ${
+`my name is ${name}`
+}`;
+console.log(message);
+  
+
+var name="pratik",
+    message=`${name} is programmer`;
+
+console.log(message);
+
+let originalprice=25;
+let newprice=10;
+    message=(`you saved ${((originalprice-newprice)/(originalprice))*100}% on this sale`);
+             
+console.log(message);
+
+var name="join the 'Happy learning' team in slack";
+
+console.log("1--"+name.startsWith("join"));
+
+console.log("2--"+name.startsWith("Happy",10));
+
+console.log("3--"+name.endsWith("learning"));
+
+console.log("4--"+name.endsWith("slack"));
+
+console.log("5--"+name.length);
+
+let hello = "Hello";
+ let how = "How"
+ let dot = ".";
+ let are = "are";
+ let you = "you";
+ let question = "?"
+ 
+ let expectedOutput =hello + dot.repeat(3) + how + dot.repeat(2) + are + dot.repeat(3) + you + dot.repeat(2) + you + dot.repeat(4) + you + question.repeat(3);
+	
+	console.log(expectedOutput);
+	
+
